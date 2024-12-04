@@ -1,4 +1,4 @@
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
+import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar';
 
 export default function Instructor() {
   return (
@@ -12,10 +12,10 @@ export default function Instructor() {
           </Avatar>
           <h3 className="text-2xl font-semibold text-clayBrown mb-2">Emma Thompson</h3>
           <p className="text-charcoal text-center max-w-2xl">
-            Emma has been working with clay for over 15 years and has a passion for teaching. With a background in fine arts and a specialization in ceramics, she brings a wealth of knowledge and creativity to every class. Emma's patient and encouraging teaching style makes her classes enjoyable for students of all skill levels.
+            Emma has been working with clay for over 15 years and has a passion for teaching. With a background in fine arts and a specialization in ceramics, she brings a wealth of knowledge and creativity to every class. Emma&#39;s patient and encouraging teaching style makes her classes enjoyable for students of all skill levels.
           </p>
         </div>
       </div>
     </section>
-  )
+  );
 }
